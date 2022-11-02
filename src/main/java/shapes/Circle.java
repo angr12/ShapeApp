@@ -1,7 +1,4 @@
 package shapes;
-
-import shapes.Shape;
-
 import java.awt.*;
 
 /**
@@ -16,8 +13,8 @@ public class Circle extends Shape implements Drawable{
         rad=radius; // Initialize fields (self.rad = radius in python)
     }
 
-
     public void draw(Graphics g) { // A method that draws the object in g
         g.setColor(col);
         g.fillOval(pos.x,pos.y,rad, rad);
-    } }
+    }
+}

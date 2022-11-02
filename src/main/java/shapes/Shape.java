@@ -11,5 +11,5 @@ public abstract class Shape implements Drawable{
         this.col = col;
     }
 
-//    public abstract void draw(Graphics g);
+
 }
